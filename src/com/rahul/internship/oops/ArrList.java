@@ -24,13 +24,17 @@ public class ArrList {
         al2.add(1);
         al2.add(2);
         al2.add(3);
-        al2.add(4);
         al2.add(5);
+        al2.add(4);
         int sum = 0;
         for (int i: al2) {
             sum += i;
         }
         System.out.println("New ArrayList: "+al2);
         System.out.println("Sum of ArrayList: "+sum);
+        Comparator<Integer> com = Collections.reverseOrder();
+        al2.sort(com);
+        System.out.println("ArrayList in Descending: "+al2);
+        Comparable[] al3;
     }
 }

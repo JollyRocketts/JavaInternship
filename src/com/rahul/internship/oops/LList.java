@@ -30,6 +30,5 @@ public class LList {
         byte[] n = {65,114,121,97,110};
         String s = new String(n);
         System.out.println("Name using ASCII: "+s);
-
     }
 }
